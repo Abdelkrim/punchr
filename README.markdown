@@ -28,6 +28,8 @@ response = client.publishers.perform
 response = client.search_index(:title => 'Chicken Parmigiana', :ingred => '1 egg, beaten\n2 ounces dry bread crumbs\n2 skinless, boneless chicken breast halves\n3/4 (16 ounce) jar spaghetti sauce\n2 ounces shredded mozzarella cheese\n1/4 cup grated Parmesan cheese').perform # Paid API call
 response = client.rate_limit_status.perform
 ```
+
+You can find more details on the [Punchfork API](http://punchfork.com/api#apidocs) at their site.
   
 ## Contributing to punchr
  
