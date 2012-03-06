@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.punchfork.com/random_recipe?key=this-is-your-punchfork-api-key
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      host:
+      - api.punchfork.com
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+      connection:
+      - close
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 06 Mar 2012 03:42:26 GMT
+      server:
+      - Apache/2.2.21 (Unix) DAV/2 mod_wsgi/3.3 Python/2.7 mod_ssl/2.2.21 OpenSSL/0.9.8k
+      content-length:
+      - '669'
+      vary:
+      - Accept-Encoding
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"recipe\": {\n    \"rating\": 21.7069, \n    \"source_name\":
+        \"Williams-Sonoma\", \n    \"source_img\": \"http://ab.wsimgs.com/wsimgs/ab/images/dp/recipe/201134/0016/img4l.jpg\",
+        \n    \"source_url\": \"http://www.williams-sonoma.com/recipe/roasted-brussels-sprouts-with-bacon-and-chestnuts.html\",
+        \n    \"fbc\": 7, \n    \"twc\": 2, \n    \"suc\": 0, \n    \"thumb\": \"http://img.punchfork.net/43bebdb43bbdd2cdbb8dfc6dfac4ee84_250x250.jpg\",
+        \n    \"title\": \"Roasted Brussels Sprouts with Bacon and Chestnuts\", \n
+        \   \"pf_url\": \"http://punchfork.com/recipe/Roasted-Brussels-Sprouts-with-Bacon-and-Chestnuts-Williams-Sonoma\",
+        \n    \"published\": \"2011-08-16T16:00:00\", \n    \"shortcode\": \"g3hNSH\"\n
+        \ }\n}"
+    http_version: '1.1'
+  recorded_at: Tue, 06 Mar 2012 03:42:26 GMT
+recorded_with: VCR 2.0.0

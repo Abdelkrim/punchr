@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.punchfork.com/rate_limit_status?key=this-is-your-punchfork-api-key
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      host:
+      - api.punchfork.com
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+      connection:
+      - close
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 06 Mar 2012 03:35:24 GMT
+      server:
+      - Apache/2.2.21 (Unix) DAV/2 mod_wsgi/3.3 Python/2.7 mod_ssl/2.2.21 OpenSSL/0.9.8k
+      content-length:
+      - '28'
+      vary:
+      - Accept-Encoding
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"remaining_calls\": 250\n}"
+    http_version: '1.1'
+  recorded_at: Tue, 06 Mar 2012 03:35:23 GMT
+recorded_with: VCR 2.0.0
