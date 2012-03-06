@@ -1,13 +1,10 @@
 require 'rspec'
+require 'weary'
 require 'punchr'
 require 'vcr'
 require 'fakeweb'
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
-
-require 'weary'
-
-Dir['./spec/support/**/*.rb'].each {|f| require f }
 
 FakeWeb.allow_net_connect = false
 
