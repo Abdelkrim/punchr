@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Punchr::VERSION
   s.authors     = ["David Czarnecki"]
   s.email       = ["me@davidczarnecki.com"]
-  s.homepage    = "https://github.com/czarneckid/punchr"
+  s.homepage    = "https://github.com/punchfork/punchr"
   s.summary     = "Ruby gem for interacting with the Punchfork API"
   s.description = "Ruby gem for interacting with the Punchfork API"
 
