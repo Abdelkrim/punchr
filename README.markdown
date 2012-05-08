@@ -26,7 +26,7 @@ or configure as:
 
 ```ruby
 Punchr.configure do |configuration|
-  configuration.api_key = 'your-punchr-api-key'
+  configuration.api_key = 'this-is-your-punchfork-api-key'
 end
 ```
 
